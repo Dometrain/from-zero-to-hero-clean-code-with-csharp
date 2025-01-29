@@ -1,0 +1,5 @@
+- Extract Validations
+- Remove the flag "IsEmployee" from Customer
+- Remove the Guid primitive obsession
+- Move LicensePlate limit check inside the customer
+- Refactor Tests on TicketPriceServiceSpecification

@@ -1,0 +1,23 @@
+PUT http://localhost:5010/PricingTable
+Content-Type: application/json
+
+{ "tiers": [{ "price": 1, "hourLimit": 24}]}
+
+
+###
+
+GET http://localhost:5010/TicketPrice?entry=2024-03-01T12:30:12&exit=2024-03-01T18:30:12
+Content-Type: application/json
+
+### 
+
+POST http://localhost:5010/customers
+Content-Type: application/json
+
+{
+  "Name": "John",
+  "licensePlates": [
+    "AA-12-33"
+  ]
+}
+

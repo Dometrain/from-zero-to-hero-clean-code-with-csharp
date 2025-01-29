@@ -1,0 +1,2 @@
+## Goal
+Remove bad comments.

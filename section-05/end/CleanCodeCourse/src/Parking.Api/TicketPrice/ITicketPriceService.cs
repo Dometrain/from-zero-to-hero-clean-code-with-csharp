@@ -1,0 +1,6 @@
+namespace Parking.Api.TicketPrice;
+
+public interface ITicketPriceService
+{
+    Task<TicketPriceResponse> HandleAsync(TicketPriceRequest request, CancellationToken cancellationToken);
+}
